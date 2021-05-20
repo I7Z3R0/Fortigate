@@ -1,3 +1,5 @@
+#SCRIPT FOR FORTIGATE BULK ADDRESS CREATION
+
 This Script is to create a Bulk IP address creation on the fortigate firewall.
 
 Once this is created we can directly paste this on the web gui, cli and save our time alot.
