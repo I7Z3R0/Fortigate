@@ -21,7 +21,8 @@ def routes(path, gateway, port):
         for address in file:
             line = address.strip()
             f = open("/tmp/fortigate_routes/routes_script.txt", "a+")
-            f.write("set gateway " + gateway)
+            f.write("edit 0")
+            f.write("\nset gateway " + gateway)
             f.write("\nset dst " + line)
             f.write("\nset device port" + port)
             f.write("\nnext\n\n")
