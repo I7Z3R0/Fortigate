@@ -37,7 +37,7 @@ if __name__ == '__main__':
     if len(sys.argv[1:]) < 3:
         print('''
 
-    Usage : script.py <absolute path to ip address file> <gateway ip address> <destination port number>
+    Usage : script.py <absolute path to ip address file> <gateway ip address> <destination interface port number>
 
     Example : script.py /home/dummy/Desktop/fortigate/file.txt 10.1.1.1 6
 
