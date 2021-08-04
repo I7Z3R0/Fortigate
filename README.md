@@ -28,3 +28,5 @@ Usage(Routes) : python3 script.py <absolute path to ip address file> <gateway ip
 
 Example(Routes) : python3 script.py /home/dummy/Desktop/fortigate/file.txt 10.1.1.1 6
         
+                                                        (6 here is the exit interface port number)
+        
