@@ -9,8 +9,8 @@ import sys, getopt
 
 # change the in/out file location here if runs from IDE
 
-backup_file = 'C:\\Users\\thoufeei\\OneDrive - Hewlett Packard Enterprise\\DocumentsITOCEC01-FW1_20210804_1956.conf'
-output_file = 'C:\\Users\\thoufeei\\OneDrive - Hewlett Packard Enterprise\\DocumentsITOCEC01-FW1_20210804_1956.csv'
+backup_file = 'C:\\Users\\thoufeei\\OneDrive - Hewlett Packard Enterprise\\Documents\\ITOCEC01-FW1_20210804_1956.conf'
+output_file = 'C:\\Users\\thoufeei\\OneDrive - Hewlett Packard Enterprise\\Documents\\ITOCEC01-FW1_20210804_1956.csv'
 
 
 def usage():
