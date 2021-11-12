@@ -1,4 +1,4 @@
-#SCRIPT FOR FORTIGATE BULK ADDRESS CREATION AND ROUTES CREATION
+# SCRIPT FOR FORTIGATE BULK ADDRESS CREATION AND ROUTES CREATION
 
 This Script is to create a Bulk IP address and routes creation on the fortigate firewall.
 
@@ -20,13 +20,11 @@ NOTE : Make sure you have pwntools installed on the computer. If you dont have p
 
 NOTE : I have default directory to save the exploit as /tmp/fortigate/, If you want change that path to obsolute one to whereever you required but i would suggest to leave in the default location which i have specified.
 
-USAGE(Address) : python3 script.py <absolute path to ip address file> <group name>
+## USAGE(Address) : python3 script.py <absolute path to ip address file> <group name>
         
-EXAMPLE(Address) : python3 script.py /home/dummy/Desktop/fortigate/file.txt Malicious-Group
+## EXAMPLE(Address) : python3 script.py /home/dummy/Desktop/fortigate/file.txt Malicious-Group
         
-Usage(Routes) : python3 script.py <absolute path to ip address file> <gateway ip address> <destination interface port number>
+## Usage(Routes) : python3 script.py <absolute path to ip address file> <gateway ip address> <destination interface port number>
 
-Example(Routes) : python3 script.py /home/dummy/Desktop/fortigate/file.txt 10.1.1.1 6
-        
-                                                        (6 here is the exit interface port number/Gateway port number)
+## Example(Routes) : python3 script.py /home/dummy/Desktop/fortigate/file.txt 10.1.1.1 6
         
