@@ -58,7 +58,7 @@ def groups(path, group):
     sleep(2)
     log.progress("Process Completed!, Saving the file in /tmp/fortigate \n")
     sleep(2)
-    print("\n Success! Your script to copy paste is stored in /tmp/fortigate/object_script.txt and /tmp/fortigate/groups.txt\n")
+    print("\n Success! Your script to copy paste is stored in /tmp/fortigate/object_script.txt and /tmp/fortigate/group.txt\n")
 
 
 if __name__ == '__main__':
