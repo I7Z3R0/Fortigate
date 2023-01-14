@@ -65,9 +65,9 @@ if __name__ == '__main__':
     if len(sys.argv[1:]) < 2:
         print('''
         
-    Usage : python3 script.py <absolute path to ip address file> <group name>
+    [+] Usage : python3 script.py <absolute path to ip address file> <group name>
         
-    Example : python3 script.py /home/dummy/Desktop/fortigate/file.txt Malicious-Group
+    [+] Example : python3 script.py /home/dummy/Desktop/fortigate/file.txt Malicious-Group
         
         
         ''')
